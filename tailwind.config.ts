@@ -8,14 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'mobile': '375px'
+      },
       fontFamily: {
-        'bigText': ['Unbounded', 'sans-serif']
+        'bigText': ['Unbounded', 'sans-serif'],
+        'mainText': ['Montserrat', 'sans-serif']
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+
       },
+      
     },
   },
   plugins: [],
